@@ -1,0 +1,9 @@
+@if (alumnos.length > 0) {
+  <ul>
+    @for (alumno of alumnos; track alumno.id) {
+      <li>{{ alumno.nombre }}</li>
+    }
+  </ul>
+} @else {
+  <p>No existen alumnos</p>
+}

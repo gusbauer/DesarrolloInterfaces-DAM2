@@ -1,0 +1,16 @@
+<form [formGroup]="alumnoForm" (ngSubmit)="guardar()">
+  <label>Nombre</label>
+  <input type="text" formControlName="nombre">
+
+  <label>Apellidos</label>
+  <input type="text" formControlName="apellidos">
+
+  <label>Email</label>
+  <input type="email" formControlName="email">
+
+  @if (alumnoForm.controls.nombre.invalid && alumnoForm.controls.nombre.touched) {
+    <p>El nombre es obligatorio.</p>
+  }
+
+  <button type="submit">Guardar</button>
+</form>

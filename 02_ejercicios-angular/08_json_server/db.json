@@ -1,0 +1,25 @@
+{
+  "alumnos": [
+    {
+      "id": 1,
+      "nombre": "Juan",
+      "apellidos": "Pérez Martínez",
+      "email": "juan.perez@example.com",
+      "fechaNacimiento": "2006-05-14"
+    },
+    {
+      "id": 2,
+      "nombre": "Ana",
+      "apellidos": "Gómez Ruiz",
+      "email": "ana.gomez@example.com",
+      "fechaNacimiento": "2004-11-23"
+    },
+    {
+      "id": 3,
+      "nombre": "Carlos",
+      "apellidos": "López Hernández",
+      "email": "carlos.lopez@example.com",
+      "fechaNacimiento": "2005-02-10"
+    }
+  ]
+}
